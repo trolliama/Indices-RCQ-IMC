@@ -1,0 +1,13 @@
+OBS: O arquivo deve estar em csv ou txt.
+
+sexo,idade,peso,altura,perimetria_da_cintura,perimetria_do_quadril
+sexo2,idade2,peso2,altura2,perimetria_da_cintura2,perimetria_do_quadril2
+...
+
+EXEMPLO:
+F,22,67.3,1.67,30,48
+M,16,58,1.76,27,36
+M,19,67,1.74,43,57
+M,32,84,1.68,52,38
+F,27,67,1.69,26,44
+F,21,92,1.67,50,46
