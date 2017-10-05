@@ -1,10 +1,10 @@
 # Indices-RCQ-IMC
-Calculador e criador de gráficos de IMC e RCQ
+Calculador e criador de gráficos de IMC e RCQ.
 
 OBS:
-  você deve ter matplotlib instalado e tkinter,para poder fazer isso,você pode ir nesse site     https://matplotlib.org/users/installing.html e seguir as instruções dele
+  você deve ter matplotlib instalado e tkinter,para poder instalar matplotlib você pode ir nesse site     https://matplotlib.org/users/installing.html e seguir as instruções dele.
  
-Agora os passos
+Agora os passos.
 
 1° passo:
   crie um arquivo txt ou csv em seu computador, com os dados dentro da seguinte forma:
@@ -13,7 +13,7 @@ Agora os passos
     ...
     
 2° passo:
-  execute o main.py e escolha seu arquivo,vá até a pasta Gráficos e verá as imagens feitas
+  execute o main.py e escolha seu arquivo,vá até a pasta Gráficos e verá as imagens feitas.
   
   
 OBS:
