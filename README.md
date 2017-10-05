@@ -12,6 +12,8 @@ Agora os passos.
     sexo2,idade2,peso2,altura2,perimetria_da_cintura2,perimetria_do_quadril2
     ...
     
+    Se quiser pode olhar o arquivo 'AquivoExemplo.csv'.
+    
 2° passo:
   execute o main.py e escolha seu arquivo,vá até a pasta Gráficos e verá as imagens feitas.
   
