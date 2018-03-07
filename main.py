@@ -2,7 +2,10 @@ import tkinter as tk
 from tkinter import filedialog as filed
 from os import getcwd
 import csv
-import classes as clss
+from Homens import Homem
+from Mulheres import Mulher
+from RCQ import RCQ
+from IMC import IMC
 
 
 def callFuncs(lista, funcs, *args):
@@ -28,11 +31,11 @@ if __name__ == '__main__':
         for dados_pessoa in readCSV:
             if dados_pessoa:
                 if 'M' in dados_pessoa:
-                    obj = clss.Homem(dados_pessoa)
+                    obj = Homem(dados_pessoa)
                     lista_homens.append(obj)
                 else:
-                    obj = clss.Mulher(dados_pessoa)
+                    obj = Mulher(dados_pessoa)
                     lista_mulheres.append(obj)
 
-    graf_IMC = clss.IMC(lista_homens, lista_mulheres)
-    graf_RCQ = clss.RCQ(lista_homens, lista_mulheres)
+    graf_IMC = IMC(lista_homens, lista_mulheres)
+    graf_RCQ = RCQ(lista_homens, lista_mulheres)
