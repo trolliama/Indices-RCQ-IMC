@@ -1,7 +1,11 @@
 import tkinter as tk
+from sys import path
 from tkinter import filedialog as filed
 from os import getcwd
 import csv
+
+path.append('classes')
+
 from Homens import Homem
 from Mulheres import Mulher
 from RCQ import RCQ
