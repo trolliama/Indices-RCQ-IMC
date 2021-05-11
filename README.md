@@ -1,22 +1,25 @@
-# Indices-RCQ-IMC
-Calculador e criador de gráficos de IMC e RCQ.
+# RCQ and IMC Calculator
 
-OBS:
-  você deve ter matplotlib instalado e tkinter,para poder instalar matplotlib você pode ir nesse site     https://matplotlib.org/users/installing.html e seguir as instruções dele.
- 
-Agora os passos.
+Calculator and chart creator of IMC and RCQ.<br>
+It will calculate and create a pie chart divided by the range of IMC and RCQ values of several people
 
-1° passo:
-  crie um arquivo txt ou csv em seu computador, com os dados dentro da seguinte forma:
-    sexo,idade,peso,altura,perimetria_da_cintura,perimetria_do_quadril
-    sexo2,idade2,peso2,altura2,perimetria_da_cintura2,perimetria_do_quadril2
-    ...
-    
-    Se quiser pode olhar o arquivo 'AquivoExemplo.csv'.
-    
-2° passo:
-  execute o main.py e escolha seu arquivo,vá até a pasta Gráficos e verá as imagens feitas.
+### requirements
+  - matplotlib
+  - Python3
+
+### First step
+  - Create a txt or csv file in your computer with the data.
+  - Data format:<br>
   
+  | Sex  | Age | Weight | Height | Waist Circumference | Hip Perimetry |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| Content Cell 1 | Content Cell 1 | Content Cell 1 | Content Cell 1 | Content Cell 1 | Content Cell 1 |
+| Content Cell 2 | Content Cell 2 | Content Cell 2 | Content Cell 2 | Content Cell 2 | Content Cell 2 |
+| ... | ... | ... | ... | ... | ... |
+| Content Cell 3 | Content Cell 3 | Content Cell 3 | Content Cell 3 | Content Cell 3 | Content Cell 3 |
   
-OBS:
-  Qualquer bug encontrado, pode falar.
+
+> You can look at 'ArquivoExemplo.csv
+    
+### Second step
+  execute main.py and choose the file, got to `Gráficos` directory and you will see the chart images.
